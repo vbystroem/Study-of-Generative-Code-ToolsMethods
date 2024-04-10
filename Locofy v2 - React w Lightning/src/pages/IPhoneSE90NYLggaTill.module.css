@@ -1,0 +1,33 @@
+.hurVillDu {
+  align-self: stretch;
+  height: 6.875rem;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.hurVillDuLggaTillAktivitParent,
+.iphoneSe90NyLggaTill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hurVillDuLggaTillAktivitParent {
+  align-self: stretch;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.iphoneSe90NyLggaTill {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  padding: 0 0 8.625rem;
+  box-sizing: border-box;
+  letter-spacing: normal;
+}

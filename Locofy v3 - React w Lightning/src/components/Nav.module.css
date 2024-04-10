@@ -1,0 +1,43 @@
+.backtickIcon,
+.minaFavoriter {
+  height: 3.5rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.backtickIcon {
+  width: 3.5rem;
+  overflow: hidden;
+  min-height: 3.5rem;
+}
+.minaFavoriter {
+  width: 11rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.xbuttonlargeIcon {
+  height: 3.5rem;
+  width: 3.5rem;
+  position: relative;
+  display: none;
+  min-height: 3.5rem;
+}
+.nav {
+  align-self: stretch;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #8c8c8c;
+  font-family: Inter;
+}

@@ -1,0 +1,119 @@
+.hurVillDu {
+  position: absolute;
+  top: 3.75rem;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 6.875rem;
+}
+.buttonChild,
+.knapp {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.buttonChild {
+  width: 99.72%;
+  right: 0.12%;
+  bottom: 0;
+  left: 0.16%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+}
+.knapp {
+  width: 91.68%;
+  left: 4.16%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  top: 10.625rem;
+}
+.button,
+.button1,
+.button2 {
+  position: absolute;
+  left: 2.188rem;
+  width: 15.625rem;
+  height: 3.75rem;
+}
+.button1 {
+  top: 16.875rem;
+  cursor: pointer;
+}
+.button2 {
+  top: 23.125rem;
+}
+.avsnittshuvudChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.baktpilIcon {
+  position: absolute;
+  height: 66.67%;
+  width: 12.5%;
+  top: 16.67%;
+  right: 87.5%;
+  bottom: 16.67%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.avsnittsrubrik,
+.stngkryssIcon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.avsnittsrubrik {
+  width: 75%;
+  left: 12.5%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stngkryssIcon {
+  width: 18.75%;
+  right: 0;
+  bottom: 0;
+  left: 81.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.avsnittshuvud {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20rem;
+  height: 3.75rem;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray);
+}
+.iphoneSe90NyLggaTill {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  height: 35.5rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

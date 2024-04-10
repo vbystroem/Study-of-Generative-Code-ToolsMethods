@@ -1,0 +1,77 @@
+.overlayAktivitetenTillagdStChild {
+  position: absolute;
+  top: -0.062rem;
+  left: 1rem;
+  border-radius: var(--br-3xs);
+  background-color: #d9d9d9;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 18rem;
+  height: 21.375rem;
+}
+.stngkryssIcon {
+  position: absolute;
+  top: 0.313rem;
+  left: 16.125rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.aktivitetenHarLagts {
+  position: absolute;
+  top: 2.313rem;
+  left: 1.063rem;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17.875rem;
+  height: 11.25rem;
+}
+.buttonChild,
+.knapp {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.buttonChild {
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+}
+.knapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button,
+.button1 {
+  position: absolute;
+  top: 15rem;
+  left: 1.563rem;
+  width: 8.125rem;
+  height: 3.75rem;
+  cursor: pointer;
+}
+.button1 {
+  left: 10.313rem;
+}
+.overlayAktivitetenTillagdSt {
+  width: 20rem;
+  position: relative;
+  height: 21.25rem;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

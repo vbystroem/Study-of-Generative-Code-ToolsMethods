@@ -1,0 +1,44 @@
+.buttonChild {
+  align-self: stretch;
+  width: 15.581rem;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  display: none;
+}
+.knapp {
+  height: 3.75rem;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.button,
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkslategray);
+  padding: 0 var(--padding-5xs) 0 var(--padding-2xs-4);
+  white-space: nowrap;
+}
+.buttonWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-16xl) var(--padding-21xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

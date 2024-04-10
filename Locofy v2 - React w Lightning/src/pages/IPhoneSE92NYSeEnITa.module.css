@@ -1,0 +1,134 @@
+.aktivitetsnamn,
+.aktuellAktivitetsfrga {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aktuellAktivitetsfrga {
+  width: 100%;
+  height: 2.5rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 3.75rem;
+  left: 0;
+}
+.aktivitetsnamn {
+  align-self: stretch;
+  height: 3.75rem;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.buttonChild,
+.knapp {
+  height: 2.5rem;
+  position: relative;
+}
+.buttonChild {
+  width: 8.125rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  display: none;
+}
+.knapp {
+  flex: 1;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.button,
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button {
+  width: 8.125rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.buttonWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--font-size-base);
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 0.7px solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.bildobjektXstortIcon {
+  position: absolute;
+  top: 3.75rem;
+  left: 1.563rem;
+  width: 13.75rem;
+  height: 13.75rem;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleParent {
+  width: 16.875rem;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 135px);
+}
+.aktivitetsnamnParent {
+  align-self: stretch;
+  padding: 0 0 var(--padding-lg);
+  position: relative;
+  gap: var(--gap-221xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.aktivitetsnamnParent,
+.frameParent,
+.iphoneSe92NySeEnITa {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-6xl);
+}
+.iphoneSe92NySeEnITa {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  padding: 0 0 var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

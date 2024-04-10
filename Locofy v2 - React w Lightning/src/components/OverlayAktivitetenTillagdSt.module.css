@@ -1,0 +1,70 @@
+.frameChild {
+  align-self: stretch;
+  height: 21.375rem;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.stngkryssIcon {
+  position: absolute;
+  top: 0;
+  left: 15.063rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 1;
+}
+.aktivitetenHarLagts {
+  margin: 0;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17.875rem;
+  height: 11.25rem;
+  z-index: 1;
+}
+.stngkryssParent {
+  align-self: stretch;
+  height: 13.25rem;
+  position: relative;
+}
+.overlayAktivitetenTillagdSt,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  flex-direction: column;
+  padding: 0.313rem 0 var(--padding-21xl);
+  gap: 1.438rem;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.overlayAktivitetenTillagdSt {
+  width: 20rem;
+  position: relative;
+  flex-direction: row;
+  padding: 0 1.063rem;
+  box-sizing: border-box;
+  letter-spacing: normal;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}

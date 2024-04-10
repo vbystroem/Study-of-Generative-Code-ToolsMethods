@@ -1,0 +1,73 @@
+.cardheading,
+.cardimageIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.cardheading {
+  align-self: stretch;
+  height: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardimageIcon {
+  height: 13.5rem;
+  width: 13.5rem;
+  overflow: hidden;
+  object-fit: cover;
+}
+.buttonSmall {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2.25rem;
+}
+.backtickXButton {
+  height: 2.5rem;
+  flex: 1;
+  position: relative;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonsmall {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  flex-direction: row;
+  white-space: nowrap;
+}
+.buttonsmall,
+.card,
+.minaFavoriter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.minaFavoriter {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 4.5rem;
+  font-size: 1rem;
+}
+.card {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 1rem 0;
+  gap: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #000;
+  font-family: Inter;
+}

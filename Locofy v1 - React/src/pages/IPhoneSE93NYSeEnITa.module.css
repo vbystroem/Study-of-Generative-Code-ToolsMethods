@@ -1,0 +1,201 @@
+.aktuellAktivitetsfrga {
+  position: absolute;
+  height: 7.04%;
+  width: 100%;
+  top: 10.56%;
+  left: 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonChild,
+.knapp {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.buttonChild {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+}
+.knapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.button,
+.knapp,
+.knapp1 {
+  position: absolute;
+}
+.button {
+  height: 10.56%;
+  width: 40.63%;
+  top: 85.04%;
+  right: 53.13%;
+  bottom: 4.4%;
+  left: 6.25%;
+}
+.knapp1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button1 {
+  position: absolute;
+  height: 10.56%;
+  width: 40.63%;
+  top: 85.04%;
+  right: 6.25%;
+  bottom: 4.4%;
+  left: 53.13%;
+  cursor: pointer;
+}
+.aktivitetChild {
+  position: absolute;
+  top: 0;
+  left: 1.563rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 0.7px solid var(--color-black);
+  box-sizing: border-box;
+  width: 16.875rem;
+  height: 22.375rem;
+}
+.aktivitetsnamn,
+.knapp2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aktivitetsnamn {
+  font-weight: 500;
+  width: 20rem;
+  height: 3.75rem;
+}
+.knapp2 {
+  height: 100%;
+  width: 100%;
+  line-height: 1.25rem;
+}
+.button2 {
+  position: absolute;
+  top: 18.75rem;
+  left: 5.938rem;
+  width: 8.125rem;
+  height: 2.5rem;
+  font-size: var(--font-size-base);
+}
+.bildobjektXstortIcon {
+  position: absolute;
+  top: 3.75rem;
+  left: 3.125rem;
+  width: 13.75rem;
+  height: 13.75rem;
+  overflow: hidden;
+  object-fit: cover;
+}
+.aktivitet,
+.avsnittshuvudChild {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.aktivitet {
+  height: 64.79%;
+  top: 17.61%;
+  bottom: 17.61%;
+  overflow: hidden;
+  font-size: var(--font-size-5xl);
+}
+.avsnittshuvudChild {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background-color: var(--color-white);
+}
+.baktpilIcon {
+  position: absolute;
+  height: 66.67%;
+  width: 12.5%;
+  top: 16.67%;
+  right: 87.5%;
+  bottom: 16.67%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.avsnittsrubrik {
+  position: absolute;
+  height: 100%;
+  width: 75%;
+  top: 0;
+  left: 12.5%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avsnittshuvud,
+.stngkryssIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.stngkryssIcon {
+  height: 100%;
+  width: 18.75%;
+  bottom: 0;
+  left: 81.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.avsnittshuvud {
+  height: 10.56%;
+  width: 100%;
+  bottom: 89.44%;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray);
+}
+.aktivitetsfrslag,
+.iphoneSe93NySeEnITa {
+  background-color: var(--color-whitesmoke);
+  height: 35.5rem;
+}
+.aktivitetsfrslag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20rem;
+}
+.iphoneSe93NySeEnITa {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

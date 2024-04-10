@@ -1,0 +1,60 @@
+.avsnittshuvudChild {
+  align-self: stretch;
+  width: 20rem;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+}
+.baktpilIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+  z-index: 1;
+}
+.baktpilWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.avsnittsrubrik,
+.stngkryssIcon {
+  height: 3.75rem;
+  position: relative;
+  z-index: 1;
+}
+.avsnittsrubrik {
+  flex: 1;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.stngkryssIcon {
+  width: 3.75rem;
+  min-height: 3.75rem;
+  margin-left: -1.25rem;
+}
+.avsnittshuvud,
+.avsnittsrubrikParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avsnittsrubrikParent {
+  flex: 1;
+}
+.avsnittshuvud {
+  align-self: stretch;
+  background-color: var(--color-white);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+}

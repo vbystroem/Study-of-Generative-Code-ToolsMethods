@@ -1,0 +1,102 @@
+.xbuttonsmallIcon {
+  height: 3.5rem;
+  width: 3.5rem;
+  position: relative;
+}
+.overlayclosenav {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.headinglarge {
+  margin: 0;
+  height: 9.5rem;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headingLarge {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1rem;
+}
+.buttontextlarge {
+  height: 3.5rem;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonlargenarrow {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.buttontextlarge1 {
+  height: 3.5rem;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonlargenarrow1,
+.overlay,
+.overlaybuttoncontainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonlargenarrow1 {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  flex-direction: row;
+}
+.overlay,
+.overlaybuttoncontainer {
+  overflow: hidden;
+}
+.overlaybuttoncontainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0.5rem;
+  gap: 1rem;
+  font-size: 1.25rem;
+}
+.overlay {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  flex-direction: column;
+  padding: 0 0 1rem;
+  gap: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+  font-family: Inter;
+}
