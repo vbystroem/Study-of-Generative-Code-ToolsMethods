@@ -1,0 +1,90 @@
+.buttonclosesmallIcon {
+  width: 56px;
+  position: relative;
+  height: 56px;
+}
+.overlayclosenav {
+  width: 288px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.buttontextlarge,
+.confirmationtext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.confirmationtext {
+  width: 256px;
+  position: relative;
+  font-weight: 600;
+  height: 152px;
+  flex-shrink: 0;
+}
+.buttontextlarge {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.buttonlargenarrow {
+  width: 128px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  height: 56px;
+}
+.buttontextlarge1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonlargenarrow1 {
+  width: 128px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  height: 56px;
+}
+.overlay,
+.overlaybuttoncontainer {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  gap: 16px;
+  font-size: 20px;
+}
+.overlay {
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 16px;
+  gap: 24px;
+  text-align: center;
+  font-size: 32px;
+  color: #000;
+  font-family: Inter;
+  align-self: stretch;
+}

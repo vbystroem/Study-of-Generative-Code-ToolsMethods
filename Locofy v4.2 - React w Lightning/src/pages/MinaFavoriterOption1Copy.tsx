@@ -1,0 +1,68 @@
+import { FunctionComponent, useState, useCallback } from "react";
+import MinaFavoriterConfirmCopy from "../components/MinaFavoriterConfirmCopy";
+import PortalPopup from "../components/PortalPopup";
+import { useNavigate } from "react-router-dom";
+import Nav1 from "../components/Nav1";
+import Card1 from "../components/Card1";
+import styles from "./MinaFavoriterOption1Copy.module.css";
+
+const MinaFavoriterOption1Copy: FunctionComponent = () => {
+  const [isMinaFavoriterConfirmCopyOpen, setMinaFavoriterConfirmCopyOpen] =
+    useState(false);
+  const navigate = useNavigate();
+
+  const onButtonCloseLargeClick = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
+  const onButtonLargeNarrowContainerClick = useCallback(() => {
+    navigate("/minafavoriteroption2-copy");
+  }, [navigate]);
+
+  const openMinaFavoriterConfirmCopy = useCallback(() => {
+    setMinaFavoriterConfirmCopyOpen(true);
+  }, []);
+
+  const closeMinaFavoriterConfirmCopy = useCallback(() => {
+    setMinaFavoriterConfirmCopyOpen(false);
+  }, []);
+
+  return (
+    <>
+      <div className={styles.minafavoriteroption1Copy}>
+        <Nav1 onButtonCloseLargeClick={onButtonCloseLargeClick} />
+        <main className={styles.main}>
+          <div className={styles.activitytitle}>
+            Vill du lägga till denna aktivitet?
+          </div>
+          <Card1 cardTitle="Cykla" cardImage="/cardimage@2x.png" />
+          <footer className={styles.buttoncontainer}>
+            <div
+              className={styles.buttonlargenarrow}
+              onClick={onButtonLargeNarrowContainerClick}
+            >
+              <div className={styles.nejInteDen}>Nej, inte den</div>
+            </div>
+            <div
+              className={styles.buttonlargenarrow1}
+              onClick={openMinaFavoriterConfirmCopy}
+            >
+              <div className={styles.nejInteDen1}>Ja, lägg till</div>
+            </div>
+          </footer>
+        </main>
+      </div>
+      {isMinaFavoriterConfirmCopyOpen && (
+        <PortalPopup
+          overlayColor="rgba(113, 113, 113, 0.3)"
+          placement="Centered"
+          onOutsideClick={closeMinaFavoriterConfirmCopy}
+        >
+          <MinaFavoriterConfirmCopy onClose={closeMinaFavoriterConfirmCopy} />
+        </PortalPopup>
+      )}
+    </>
+  );
+};
+
+export default MinaFavoriterOption1Copy;

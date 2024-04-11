@@ -1,0 +1,95 @@
+.activitytitle {
+  width: 17.063rem;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nejInteDen {
+  position: relative;
+  display: inline-block;
+  min-width: 7.5rem;
+}
+.buttonlargenarrow {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0.188rem;
+  min-width: 8rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.nejInteDen1 {
+  position: relative;
+  display: inline-block;
+  min-width: 6.313rem;
+}
+.buttoncontainer,
+.buttonlargenarrow1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonlargenarrow1 {
+  flex: 0.85;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 1rem 0.75rem;
+  min-width: 8rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.buttoncontainer {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  gap: 2rem;
+  text-align: left;
+  font-size: 1.25rem;
+  color: #000;
+  font-family: Inter;
+}
+.main,
+.minafavoriteroption2Copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.main {
+  align-self: stretch;
+  overflow: hidden;
+  padding: 0 1rem;
+  text-align: center;
+  font-size: 1.125rem;
+  color: #000;
+  font-family: Inter;
+}
+.minafavoriteroption2Copy {
+  width: 100%;
+  position: relative;
+  background-color: #efefef;
+  padding: 0 0 1.938rem;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 168px) {
+  .buttonlargenarrow,
+  .buttonlargenarrow1 {
+    width: calc(100% - 40px);
+  }
+}
