@@ -1,0 +1,102 @@
+.activitytitle {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.activitytitleWrapper,
+.cardWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1rem;
+}
+.buttontext {
+  height: 3.5rem;
+  flex: 1;
+  position: relative;
+  font-size: 1.25rem;
+  font-family: Inter;
+  color: #000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 8rem;
+}
+.buttonlargenarrow {
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 0;
+  background-color: #fff;
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.buttontext1 {
+  height: 3.5rem;
+  flex: 1;
+  position: relative;
+  font-size: 1.25rem;
+  font-family: Inter;
+  color: #000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonlargenarrow1 {
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 0;
+  background-color: #fff;
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.buttonlargenarrowParent {
+  flex: 1;
+  flex-direction: row;
+  gap: 2rem;
+}
+.buttonlargenarrowParent,
+.minafavoriteroption1,
+.minafavoriteroption1Inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.minafavoriteroption1Inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 1rem;
+}
+.minafavoriteroption1 {
+  width: 100%;
+  position: relative;
+  background-color: #efefef;
+  flex-direction: column;
+  padding: 0 0 1.5rem;
+  box-sizing: border-box;
+  gap: 1rem;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  font-size: 1.125rem;
+  color: #000;
+  font-family: Inter;
+}

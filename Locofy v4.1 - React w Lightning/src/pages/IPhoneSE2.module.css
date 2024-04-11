@@ -1,0 +1,91 @@
+.activitytitle {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.card,
+.contentArea {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1rem;
+}
+.buttontext {
+  height: 3.5rem;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 8rem;
+}
+.buttonlargenarrow {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.buttontext1 {
+  height: 3.5rem;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonlargenarrow1 {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  flex-direction: row;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.buttonPair,
+.buttonPairWrapper,
+.buttonlargenarrow1,
+.minafavoriteroption2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonPair {
+  flex: 1;
+  flex-direction: row;
+  gap: 2rem;
+}
+.buttonPairWrapper,
+.minafavoriteroption2 {
+  text-align: center;
+  color: #000;
+  font-family: Inter;
+}
+.buttonPairWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 1rem;
+  font-size: 1.25rem;
+}
+.minafavoriteroption2 {
+  width: 100%;
+  position: relative;
+  background-color: #efefef;
+  flex-direction: column;
+  padding: 0 0 1.5rem;
+  box-sizing: border-box;
+  gap: 1rem;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+}

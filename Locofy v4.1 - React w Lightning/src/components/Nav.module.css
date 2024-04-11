@@ -1,0 +1,46 @@
+.buttonbackIcon {
+  align-self: stretch;
+  width: 3.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navtitle {
+  margin: 0;
+  height: 3.5rem;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.buttoncloselargeIcon {
+  height: 3.5rem;
+  width: 3.5rem;
+  position: relative;
+  min-height: 3.5rem;
+  cursor: pointer;
+}
+.nav {
+  align-self: stretch;
+  height: 4.5rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  gap: 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #8c8c8c;
+  font-family: Inter;
+}
