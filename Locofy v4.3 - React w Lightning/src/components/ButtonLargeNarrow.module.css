@@ -1,0 +1,30 @@
+.nejInteDen {
+  position: relative;
+  font-size: var(--buttontext-large-size);
+  font-family: var(--buttontext-large);
+  color: var(--dark);
+  text-align: left;
+  display: inline-block;
+  min-width: 7.5rem;
+}
+.buttonlargenarrow {
+  cursor: pointer;
+  border: 1px solid var(--dark);
+  padding: var(--padding-base) var(--padding-10xs);
+  background-color: var(--light);
+  flex: 1;
+  border-radius: var(--br-3xs);
+  box-shadow: var(--shadow-button);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 8rem;
+  white-space: nowrap;
+}
+@media screen and (max-width: 168px) {
+  .buttonlargenarrow {
+    width: calc(100% - 40px);
+  }
+}

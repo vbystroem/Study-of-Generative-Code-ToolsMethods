@@ -1,0 +1,25 @@
+.seBeskrivning {
+  position: relative;
+  font-size: var(--buttontext-small-size);
+  line-height: 1.25rem;
+  font-family: var(--buttontext-large);
+  color: var(--dark);
+  text-align: left;
+  display: inline-block;
+  min-width: 7rem;
+}
+.buttonsmall {
+  cursor: pointer;
+  border: 1px solid var(--dark);
+  padding: var(--padding-5xs) var(--padding-mini);
+  background-color: var(--light);
+  border-radius: var(--br-3xs);
+  box-shadow: var(--shadow-button);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 9rem;
+  white-space: nowrap;
+}

@@ -1,0 +1,101 @@
+.buttonbackIcon,
+.navtitle {
+  position: relative;
+  flex-shrink: 0;
+}
+.buttonbackIcon {
+  height: 3.5rem;
+  width: 3.5rem;
+  overflow: hidden;
+  min-height: 3.5rem;
+}
+.navtitle {
+  margin: 0;
+  align-self: stretch;
+  width: 10.063rem;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vectorIcon {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: relative;
+}
+.buttoncloselarge,
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttoncloselarge {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs);
+  background-color: transparent;
+  width: false;
+  box-sizing: border-box;
+  min-width: 3.5rem;
+  max-width: 3.5rem;
+}
+.nav {
+  margin: 0;
+  align-self: stretch;
+  background-color: var(--light);
+  border-bottom: 1px solid var(--dark);
+  padding: var(--padding-5xs) var(--padding-5xs-5);
+  text-align: center;
+  font-size: var(--heading-card-size);
+  color: var(--darkmid);
+  font-family: var(--buttontext-large);
+}
+.activitytitle,
+.buttoncontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.activitytitle {
+  margin: 0;
+  width: 17.063rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.buttoncontainer {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-13xl);
+}
+.main,
+.minafavoriteroption1Copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.main {
+  align-self: stretch;
+  overflow: hidden;
+  padding: 0 var(--padding-base);
+  text-align: center;
+  font-size: var(--heading-small-size);
+  color: var(--dark);
+  font-family: var(--buttontext-large);
+}
+.minafavoriteroption1Copy {
+  width: 100%;
+  position: relative;
+  background-color: var(--lightmid);
+  padding: 0 0 var(--padding-12xl);
+  box-sizing: border-box;
+  letter-spacing: normal;
+  line-height: normal;
+}

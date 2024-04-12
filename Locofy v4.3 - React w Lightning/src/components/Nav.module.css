@@ -1,0 +1,27 @@
+.navtitle {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.nav {
+  margin: 0;
+  align-self: stretch;
+  height: 4.5rem;
+  background-color: var(--light);
+  border-bottom: 1px solid var(--dark);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-60xl) var(--padding-5xs)
+    var(--padding-5xs);
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--heading-card-size);
+  color: var(--darkmid);
+  font-family: var(--buttontext-large);
+}
