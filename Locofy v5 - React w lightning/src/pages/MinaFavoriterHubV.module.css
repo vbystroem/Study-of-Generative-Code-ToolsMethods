@@ -22,7 +22,6 @@
   align-self: stretch;
   overflow: hidden;
   gap: var(--gap-base);
-  cursor: pointer;
 }
 .main,
 .minafavoriterhubV5 {

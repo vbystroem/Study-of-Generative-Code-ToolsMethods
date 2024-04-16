@@ -65,7 +65,7 @@ const ButtonLargeNarrowYes: FunctionComponent<ButtonLargeNarrowYesType> = ({
     buttonLargeNarrowFlexWrap,
   ]);
 
-  const choiceButton1Style: CSSProperties = useMemo(() => {
+  const choiceButtonStyle: CSSProperties = useMemo(() => {
     return {
       textAlign: propTextAlign,
       display: propDisplay,
@@ -101,7 +101,7 @@ const ButtonLargeNarrowYes: FunctionComponent<ButtonLargeNarrowYesType> = ({
         onClick={openMinaFavoriterConfirmV5}
         style={buttonLargeNarrowStyle}
       >
-        <span className={styles.choicebutton} style={choiceButton1Style}>
+        <span className={styles.choicebutton} style={choiceButtonStyle}>
           {choiceButton}
         </span>
       </Link>

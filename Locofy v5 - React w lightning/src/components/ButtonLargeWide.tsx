@@ -1,4 +1,10 @@
-import { FunctionComponent, useMemo, type CSSProperties } from "react";
+import {
+  FunctionComponent,
+  useMemo,
+  type CSSProperties,
+  useCallback,
+} from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./ButtonLargeWide.module.css";
 
 export type ButtonLargeWideType = {
@@ -34,8 +40,18 @@ const ButtonLargeWide: FunctionComponent<ButtonLargeWideType> = ({
     };
   }, [propWidth1, propMinWidth]);
 
+  const navigate = useNavigate();
+
+  const onButtonLargeWideClick = useCallback(() => {
+    navigate("/minafavoriteroption1-v5");
+  }, [navigate]);
+
   return (
-    <a className={styles.buttonlargewide} style={buttonLargeWideStyle}>
+    <a
+      className={styles.buttonlargewide}
+      onClick={onButtonLargeWideClick}
+      style={buttonLargeWideStyle}
+    >
       <span className={styles.choose} style={chooseStyle}>
         {choose}
       </span>

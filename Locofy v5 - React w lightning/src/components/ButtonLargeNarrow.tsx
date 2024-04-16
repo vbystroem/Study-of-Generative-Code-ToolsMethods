@@ -16,7 +16,7 @@ const ButtonLargeNarrow: FunctionComponent<ButtonLargeNarrowType> = ({
   propAlignSelf,
   onButtonLargeNarrowClick,
 }) => {
-  const choiceButtonStyle: CSSProperties = useMemo(() => {
+  const choiceButton1Style: CSSProperties = useMemo(() => {
     return {
       alignSelf: propAlignSelf,
     };
@@ -27,7 +27,7 @@ const ButtonLargeNarrow: FunctionComponent<ButtonLargeNarrowType> = ({
       className={styles.buttonlargenarrow}
       onClick={onButtonLargeNarrowClick}
     >
-      <span className={styles.choicebutton} style={choiceButtonStyle}>
+      <span className={styles.choicebutton} style={choiceButton1Style}>
         {choiceButton}
       </span>
     </button>
