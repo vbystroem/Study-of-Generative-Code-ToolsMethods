@@ -1,0 +1,29 @@
+.buttonlargewide,
+.choose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.choose {
+  width: 6.813rem;
+  position: relative;
+  min-width: 6.813rem;
+}
+.buttonlargewide {
+  text-decoration: none;
+  width: 100%;
+  border-radius: var(--br-3xs);
+  background-color: var(--light);
+  box-shadow: var(--shadow-button);
+  border: 1px solid var(--dark);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-xl);
+  min-width: 18rem;
+  max-width: 18rem;
+  white-space: nowrap;
+  text-align: center;
+  font-size: var(--buttontext-large-size);
+  color: var(--dark);
+  font-family: var(--buttontext-large);
+}

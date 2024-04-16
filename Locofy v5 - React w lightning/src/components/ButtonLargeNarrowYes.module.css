@@ -1,0 +1,36 @@
+.choicebutton {
+  align-self: stretch;
+  width: 5.688rem;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 5.688rem;
+  max-width: 8rem;
+}
+.buttonlargenarrow {
+  cursor: pointer;
+  text-decoration: none;
+  flex: 0.8704;
+  border-radius: var(--br-3xs);
+  background-color: var(--light);
+  box-shadow: var(--shadow-button);
+  border: 1px solid var(--dark);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-mid);
+  min-width: 8rem;
+  white-space: nowrap;
+  text-align: left;
+  font-size: var(--buttontext-large-size);
+  color: var(--dark);
+  font-family: var(--buttontext-large);
+}
+@media screen and (max-width: 168px) {
+  .buttonlargenarrow {
+    width: calc(100% - 40px);
+  }
+}

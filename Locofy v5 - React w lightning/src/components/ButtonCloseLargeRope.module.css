@@ -1,0 +1,9 @@
+.buttoncloselargeIcon {
+  height: 100%;
+  width: 6rem;
+  position: relative;
+  max-width: 6rem;
+  min-height: 3.5rem;
+  max-height: 3.5rem;
+  cursor: pointer;
+}

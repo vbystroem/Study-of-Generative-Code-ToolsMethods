@@ -1,0 +1,23 @@
+.navIcon {
+  position: absolute;
+  height: 71.43%;
+  width: 41.67%;
+  top: 14.29%;
+  right: 29.17%;
+  bottom: 14.29%;
+  left: 29.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.buttoncloselarge {
+  cursor: pointer;
+  text-decoration: none;
+  height: 3.5rem;
+  width: 6rem;
+  position: relative;
+  min-width: 6rem;
+  max-width: 6rem;
+  max-height: 3.5rem;
+}
