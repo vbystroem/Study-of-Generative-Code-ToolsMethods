@@ -13,7 +13,7 @@ const MinaFavoriterHubV: FunctionComponent = () => {
         </h2>
         <section className={styles.buttoncontainer}>
           <ButtonLargeWide
-            buttonLargeWideHref="/minafavoriteroption1-v5"
+            buttonLargeWideHref="/minafavoriteroption1-v5" //lades till manuellt för att förhindra kompileringsfel
             choose="Välj från lista"
           />
           <ButtonLargeWide
@@ -25,7 +25,7 @@ const MinaFavoriterHubV: FunctionComponent = () => {
             propMinWidth="unset"
           />
           <ButtonLargeWide
-            buttonLargeWideHref="/minafavoriteroption1-v5"
+            buttonLargeWideHref="/minafavoriteroption1-v5" //lades till manuellt för att förhindra kompileringsfel
             choose="Skapa en egen aktivitet"
             propWidth="unset"
             propPadding="var(--padding-lg) 2.688rem"
