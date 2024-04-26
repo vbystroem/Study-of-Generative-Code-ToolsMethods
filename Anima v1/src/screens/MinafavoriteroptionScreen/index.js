@@ -1,0 +1,1 @@
+export { MinafavoriteroptionScreen } from "./MinafavoriteroptionScreen";

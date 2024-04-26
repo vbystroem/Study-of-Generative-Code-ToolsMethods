@@ -1,0 +1,1 @@
+export { Minafavoriterhub } from "./Minafavoriterhub";

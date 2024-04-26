@@ -1,0 +1,255 @@
+.minafavoriteroption-screen {
+  background-color: #efefef;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.minafavoriteroption-screen .minafavoriteroption-2 {
+  background-color: #efefef;
+  height: 568px;
+  width: 320px;
+}
+
+.minafavoriteroption-screen .aktivitetsfrslag-2 {
+  background-color: #efefef;
+  height: 568px;
+  position: relative;
+}
+
+.minafavoriteroption-screen .overlap-4 {
+  height: 99px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 320px;
+}
+
+.minafavoriteroption-screen .p {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 59px;
+  width: 320px;
+}
+
+.minafavoriteroption-screen .avsnitts-huvud-3 {
+  background-color: #ffffff;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 320px;
+}
+
+.minafavoriteroption-screen .baktpil-2 {
+  display: block;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 40px;
+}
+
+.minafavoriteroption-screen .overlap-5 {
+  height: 61px;
+  left: 40px;
+  position: absolute;
+  top: -1px;
+  width: 280px;
+}
+
+.minafavoriteroption-screen .avsnitts-rubrik-3 {
+  color: #8c8c8c;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  height: 60px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 240px;
+}
+
+.minafavoriteroption-screen .stngkryss-x-wrapper {
+  height: 60px;
+  left: 220px;
+  position: absolute;
+  top: 1px;
+  width: 60px;
+}
+
+.minafavoriteroption-screen .img-wrapper {
+  background-color: #efefef;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 20px;
+  height: 40px;
+  left: 10px;
+  position: relative;
+  top: 10px;
+  width: 40px;
+}
+
+.minafavoriteroption-screen .plus-3 {
+  height: 38px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 38px;
+}
+
+.minafavoriteroption-screen .button-3 {
+  all: unset;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #403d3d;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #00000040;
+  box-sizing: border-box;
+  height: 60px;
+  left: 20px;
+  position: absolute;
+  top: 483px;
+  width: 130px;
+}
+
+.minafavoriteroption-screen .text-wrapper-2 {
+  color: #000000;
+  display: block;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 60px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -2px;
+  width: 130px;
+}
+
+.minafavoriteroption-screen .button-4 {
+  all: unset;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #403d3d;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #00000040;
+  box-sizing: border-box;
+  height: 60px;
+  left: 170px;
+  position: absolute;
+  top: 483px;
+  width: 130px;
+}
+
+.minafavoriteroption-screen .knapp-4 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 60px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -2px;
+  width: 130px;
+}
+
+.minafavoriteroption-screen .aktivitet-2 {
+  height: 368px;
+  left: 0;
+  position: absolute;
+  top: 100px;
+  width: 320px;
+}
+
+.minafavoriteroption-screen .overlap-group-3 {
+  height: 359px;
+  position: relative;
+  top: -1px;
+}
+
+.minafavoriteroption-screen .rectangle-3 {
+  background-color: #ffffff;
+  border: 0.7px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #00000040;
+  height: 358px;
+  left: 25px;
+  position: absolute;
+  top: 1px;
+  width: 270px;
+}
+
+.minafavoriteroption-screen .aktivitetsnamn-2 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  height: 60px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 320px;
+}
+
+.minafavoriteroption-screen .button-5 {
+  all: unset;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #403d3d;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #00000040;
+  box-sizing: border-box;
+  height: 40px;
+  left: 95px;
+  position: absolute;
+  top: 301px;
+  width: 130px;
+}
+
+.minafavoriteroption-screen .knapp-5 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  left: -1px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: -2px;
+  width: 130px;
+}
+
+.minafavoriteroption-screen .bildobjekt-xstort-2 {
+  background-image: url(../../../static/img/bildobjekt-xstort-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 220px;
+  left: 50px;
+  position: absolute;
+  top: 61px;
+  width: 220px;
+}
