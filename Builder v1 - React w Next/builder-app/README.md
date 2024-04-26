@@ -1,3 +1,10 @@
+I den här har vi kört olika exportmetoder för varje version:
+v1 - Barebones Figma exporterad med Fast
+v2 - Barebones Figma exporterad med Quality + Semantic tagging
+v3 - Bra Figma exporterad med Fast
+v4 - Bra Figma exporterad med Quality + Semantic tagging
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

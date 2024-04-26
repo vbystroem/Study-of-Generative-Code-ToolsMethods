@@ -1,0 +1,169 @@
+.minafavoriterhub {
+  background-color: #efefef;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.minafavoriterhub .minafavoriterhub-v {
+  background-color: #efefef;
+  height: 568px;
+  position: relative;
+  width: 320px;
+}
+
+.minafavoriterhub .overlap {
+  height: 169px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 320px;
+}
+
+.minafavoriterhub .text-wrapper {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  height: 110px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 59px;
+  width: 320px;
+}
+
+.minafavoriterhub .avsnitts-huvud {
+  background-color: #ffffff;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 320px;
+}
+
+.minafavoriterhub .baktpil {
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  width: 40px;
+}
+
+.minafavoriterhub .overlap-group {
+  height: 61px;
+  left: 40px;
+  position: absolute;
+  top: -1px;
+  width: 280px;
+}
+
+.minafavoriterhub .avsnitts-rubrik {
+  color: #8c8c8c;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  height: 60px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 240px;
+}
+
+.minafavoriterhub .stngkryss {
+  height: 60px;
+  left: 220px;
+  position: absolute;
+  top: 1px;
+  width: 60px;
+}
+
+.minafavoriterhub .stngkryss-x {
+  background-color: #efefef;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 20px;
+  height: 40px;
+  left: 10px;
+  position: relative;
+  top: 10px;
+  width: 40px;
+}
+
+.minafavoriterhub .plus {
+  height: 38px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 38px;
+}
+
+.minafavoriterhub .button {
+  all: unset;
+  box-sizing: border-box;
+  height: 60px;
+  left: 35px;
+  position: absolute;
+  top: 170px;
+  width: 250px;
+}
+
+.minafavoriterhub .div {
+  height: 61px;
+  position: relative;
+  top: -1px;
+  width: 249px;
+}
+
+.minafavoriterhub .rectangle {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #403d3d;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #00000040;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 249px;
+}
+
+.minafavoriterhub .knapp {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 60px;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 229px;
+}
+
+.minafavoriterhub .overlap-wrapper {
+  display: block;
+  height: 60px;
+  left: 35px;
+  position: absolute;
+  top: 270px;
+  width: 250px;
+}
+
+.minafavoriterhub .overlap-group-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  height: 60px;
+  left: 35px;
+  position: absolute;
+  top: 370px;
+  width: 250px;
+}
