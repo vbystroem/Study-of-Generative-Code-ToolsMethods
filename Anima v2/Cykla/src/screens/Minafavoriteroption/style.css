@@ -1,0 +1,238 @@
+.minafavoriteroption {
+  background-color: #efefef;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.minafavoriteroption .aktivitetsfrslag-wrapper {
+  background-color: #efefef;
+  height: 35.5rem;
+  width: 20rem;
+}
+
+.minafavoriteroption .aktivitetsfrslag {
+  background-color: #efefef;
+  height: 35.5rem;
+  position: relative;
+}
+
+.minafavoriteroption .overlap {
+  height: 6.1875rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20rem;
+}
+
+.minafavoriteroption .aktuell-aktivitetsfr {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 1.25rem;
+  font-weight: 500;
+  height: 2.5rem;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 3.6875rem;
+  width: 20rem;
+}
+
+.minafavoriteroption .avsnitts-huvud {
+  background-color: #ffffff;
+  height: 3.75rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20rem;
+}
+
+.minafavoriteroption .baktpil {
+  height: 2.5rem;
+  left: 0;
+  position: absolute;
+  top: 0.625rem;
+  width: 2.5rem;
+}
+
+.minafavoriteroption .overlap-group {
+  height: 3.8125rem;
+  left: 2.5rem;
+  position: absolute;
+  top: -0.0625rem;
+  width: 17.5rem;
+}
+
+.minafavoriteroption .avsnitts-rubrik {
+  color: #8c8c8c;
+  font-family: "Inter", Helvetica;
+  font-size: 1.5rem;
+  font-weight: 600;
+  height: 3.75rem;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 15rem;
+}
+
+.minafavoriteroption .stngkryss {
+  height: 3.75rem;
+  left: 13.75rem;
+  position: absolute;
+  top: 0.0625rem;
+  width: 3.75rem;
+}
+
+.minafavoriteroption .stngkryss-x {
+  background-color: #efefef;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 20px;
+  height: 2.5rem;
+  left: 0.625rem;
+  position: relative;
+  top: 0.625rem;
+  width: 2.5rem;
+}
+
+.minafavoriteroption .plus {
+  height: 2.375rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 2.375rem;
+}
+
+.minafavoriteroption .button {
+  all: unset;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #403d3d;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #00000040;
+  box-sizing: border-box;
+  height: 3.75rem;
+  left: 1.25rem;
+  position: absolute;
+  top: 30.1875rem;
+  width: 8.125rem;
+}
+
+.minafavoriteroption .knapp {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 1.25rem;
+  font-weight: 400;
+  height: 3.75rem;
+  left: -0.0625rem;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -0.125rem;
+  width: 8.125rem;
+}
+
+.minafavoriteroption .knapp-wrapper {
+  all: unset;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #403d3d;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #00000040;
+  box-sizing: border-box;
+  height: 3.75rem;
+  left: 10.625rem;
+  position: absolute;
+  top: 30.1875rem;
+  width: 8.125rem;
+}
+
+.minafavoriteroption .aktivitet {
+  height: 23rem;
+  left: 0;
+  position: absolute;
+  top: 6.25rem;
+  width: 20rem;
+}
+
+.minafavoriteroption .div {
+  height: 22.4375rem;
+  position: relative;
+  top: -0.0625rem;
+}
+
+.minafavoriteroption .rectangle {
+  background-color: #ffffff;
+  border: 0.7px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #00000040;
+  height: 22.375rem;
+  left: 1.5625rem;
+  position: absolute;
+  top: 0.0625rem;
+  width: 16.875rem;
+}
+
+.minafavoriteroption .aktivitetsnamn {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 3.75rem;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 20rem;
+}
+
+.minafavoriteroption .div-wrapper {
+  all: unset;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #403d3d;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #00000040;
+  box-sizing: border-box;
+  height: 2.5rem;
+  left: 5.9375rem;
+  position: absolute;
+  top: 18.8125rem;
+  width: 8.125rem;
+}
+
+.minafavoriteroption .text-wrapper {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 2.5rem;
+  left: -0.0625rem;
+  letter-spacing: 0;
+  line-height: 1.25rem;
+  position: absolute;
+  text-align: center;
+  top: -0.125rem;
+  width: 8.125rem;
+}
+
+.minafavoriteroption .bildobjekt-xstort {
+  background-image: url(../../../static/img/bildobjekt-xstort.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 13.75rem;
+  left: 3.125rem;
+  position: absolute;
+  top: 3.8125rem;
+  width: 13.75rem;
+}
