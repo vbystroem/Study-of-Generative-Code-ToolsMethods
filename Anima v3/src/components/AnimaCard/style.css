@@ -1,0 +1,49 @@
+.anima-card {
+  align-items: center;
+  background-color: var(--light);
+  border: 1px solid;
+  border-color: var(--dark);
+  border-radius: 10px;
+  box-shadow: var(--shadow-card);
+  display: inline-flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow: hidden;
+  padding: 16px 36px;
+  position: relative;
+}
+
+.anima-card .card-title {
+  color: var(--dark);
+  font-family: var(--heading-card-font-family);
+  font-size: var(--heading-card-font-size);
+  font-style: var(--heading-card-font-style);
+  font-weight: var(--heading-card-font-weight);
+  letter-spacing: var(--heading-card-letter-spacing);
+  line-height: var(--heading-card-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.anima-card .card-image {
+  height: 216px;
+  position: relative;
+  width: 216px;
+}
+
+.anima-card .anima-button-small-instance {
+  flex: 0 0 auto !important;
+}
+
+.anima-card .rope {
+  background-image: url(../../../static/img/cardimage.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.anima-card .bike {
+  background-image: url(../../../static/img/cardimage-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}

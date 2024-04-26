@@ -1,0 +1,43 @@
+.minafavoriterhub {
+  align-items: center;
+  background-color: var(--lightmid);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 568px;
+  padding: 0px 16px 16px;
+  position: relative;
+}
+
+.minafavoriterhub .anima-nav-instance {
+  flex: 0 0 auto !important;
+  margin-left: -16px !important;
+  margin-right: -16px !important;
+}
+
+.minafavoriterhub .heading-medium {
+  color: #000000;
+  font-family: var(--heading-medium-font-family);
+  font-size: var(--heading-medium-font-size);
+  font-style: var(--heading-medium-font-style);
+  font-weight: var(--heading-medium-font-weight);
+  height: 72px;
+  letter-spacing: var(--heading-medium-letter-spacing);
+  line-height: var(--heading-medium-line-height);
+  position: relative;
+  text-align: center;
+  width: 288px;
+}
+
+.minafavoriterhub .button-container {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.minafavoriterhub .anima-button-large-wide {
+  flex: 0 0 auto !important;
+}

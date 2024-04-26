@@ -1,0 +1,49 @@
+.anima-nav {
+  align-items: center;
+  background-color: var(--light);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #000000;
+  display: flex;
+  gap: 16px;
+  padding: 8px;
+  position: relative;
+  width: 320px;
+}
+
+.anima-nav .class {
+  height: 56px !important;
+  margin-left: -2px !important;
+  position: relative !important;
+  width: 56px !important;
+}
+
+.anima-nav .class-2 {
+  height: 56px !important;
+  position: relative !important;
+  width: 56px !important;
+}
+
+.anima-nav .nav-title {
+  color: var(--darkmid);
+  font-family: var(--heading-medium-font-family);
+  font-size: var(--heading-medium-font-size);
+  font-style: var(--heading-medium-font-style);
+  font-weight: var(--heading-medium-font-weight);
+  letter-spacing: var(--heading-medium-letter-spacing);
+  line-height: var(--heading-medium-line-height);
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.anima-nav .anima-button-close {
+  height: 56px !important;
+  margin-right: -2px !important;
+  position: relative !important;
+  width: 56px !important;
+}
+
+.anima-nav.default {
+  justify-content: center;
+}

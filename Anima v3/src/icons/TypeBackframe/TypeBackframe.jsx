@@ -1,0 +1,32 @@
+/*
+We're constantly improving the code you see. 
+Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
+*/
+
+import React from "react";
+
+export const TypeBackframe = ({ className }) => {
+  return (
+    <svg
+      className={`type-backframe ${className}`}
+      fill="none"
+      height="56"
+      viewBox="0 0 56 56"
+      width="56"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g className="g" clipPath="url(#clip0_2190_4066)">
+        <path
+          className="path"
+          d="M33.9826 41.1022C34.5913 41.6641 35.5403 41.6262 36.1022 41.0174C36.6641 40.4087 36.6262 39.4597 36.0174 38.8978L33.9826 41.1022ZM22 28L20.9826 26.8978C20.675 27.1818 20.5 27.5814 20.5 28C20.5 28.4186 20.675 28.8182 20.9826 29.1022L22 28ZM36.0174 17.1022C36.6262 16.5403 36.6641 15.5913 36.1022 14.9826C35.5403 14.3738 34.5913 14.3359 33.9826 14.8978L36.0174 17.1022ZM36.0174 38.8978L23.0174 26.8978L20.9826 29.1022L33.9826 41.1022L36.0174 38.8978ZM23.0174 29.1022L36.0174 17.1022L33.9826 14.8978L20.9826 26.8978L23.0174 29.1022Z"
+          fill="black"
+        />
+      </g>
+      <defs className="defs">
+        <clipPath className="clip-path" id="clip0_2190_4066">
+          <rect className="rect" fill="white" height="56" width="56" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};

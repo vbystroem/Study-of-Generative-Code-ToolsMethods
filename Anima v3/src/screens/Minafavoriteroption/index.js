@@ -1,0 +1,1 @@
+export { Minafavoriteroption } from "./Minafavoriteroption";
