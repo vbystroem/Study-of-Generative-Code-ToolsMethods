@@ -1,10 +1,11 @@
+Här körde vi en tweakad Figma utifrån findings i v3 och exporterade till kod med hjälp av Lightnings automatiska funktioner
 
-  # ProMotion - 1
+# ProMotion - 1
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
+To preview and run the project on your device:
+
+1. Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+2. In the terminal, run `npm install`
+3. Run `npm start` to view project in browser
