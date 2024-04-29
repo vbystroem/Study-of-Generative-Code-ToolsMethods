@@ -1,0 +1,31 @@
+.anima-nav {
+  align-items: center;
+  background-color: var(--light);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #000000;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  position: relative;
+  width: 20rem;
+}
+
+.anima-nav .anima-button {
+  height: 3.5rem !important;
+  position: relative !important;
+  width: 3.5rem !important;
+}
+
+.anima-nav .nav-title {
+  color: var(--darkmid);
+  font-family: var(--heading-medium-font-family);
+  font-size: var(--heading-medium-font-size); /* Assuming custom property already in REM */
+  font-style: var(--heading-medium-font-style);
+  font-weight: var(--heading-medium-font-weight);
+  letter-spacing: var(--heading-medium-letter-spacing); /* Assuming custom property does not need conversion */
+  line-height: var(--heading-medium-line-height); /* Assuming custom property already in REM */
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}

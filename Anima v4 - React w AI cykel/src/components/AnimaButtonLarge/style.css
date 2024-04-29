@@ -1,0 +1,29 @@
+.anima-button-large {
+  align-items: center;
+  background-color: var(--light);
+  border: 1px solid;
+  border-color: var(--dark);
+  border-radius: 10px;
+  box-shadow: var(--shadow-button);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  position: relative;
+  width: 8rem;
+}
+
+.anima-button-large .choice-button {
+  color: #000000;
+  font-family: var(--buttontext-large-font-family);
+  font-size: 1.25rem; /* Converted from px to REM */
+  font-style: var(--buttontext-large-font-style);
+  font-weight: var(--buttontext-large-font-weight);
+  letter-spacing: var(--buttontext-large-letter-spacing);
+  line-height: var(--buttontext-large-line-height);
+  margin-left: -0.375rem;
+  margin-right: -0.375rem;
+  margin-top: -0.0625rem;
+  position: relative;
+  width: fit-content;
+}

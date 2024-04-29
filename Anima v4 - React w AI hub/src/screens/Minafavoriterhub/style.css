@@ -1,0 +1,43 @@
+.minafavoriterhub {
+  align-items: center;
+  background-color: var(--lightmid);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 35.5rem;
+  padding: 0rem 1rem 1rem;
+  position: relative;
+}
+
+.minafavoriterhub .anima-nav-instance {
+  flex: 0 0 auto !important;
+  margin-left: -1rem !important;
+  margin-right: -1rem !important;
+}
+
+.minafavoriterhub .heading-medium {
+  color: #000000;
+  font-family: var(--heading-medium-font-family);
+  font-size: var(--heading-medium-font-size); /* Assuming custom property already in REM */
+  font-style: var(--heading-medium-font-style);
+  font-weight: var(--heading-medium-font-weight);
+  height: 4.5rem;
+  letter-spacing: var(--heading-medium-letter-spacing); /* Assuming custom property does not need conversion */
+  line-height: var(--heading-medium-line-height); /* Assuming custom property already in REM */
+  position: relative;
+  text-align: center;
+  width: 18rem;
+}
+
+.minafavoriterhub .button-container {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+
+.minafavoriterhub .anima-button-large-wide {
+  flex: 0 0 auto !important;
+}
