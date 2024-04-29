@@ -1,0 +1,36 @@
+.anima-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  background-color: var(--light);
+  border-bottom: 1px solid #000000;
+  width: 20rem;
+}
+
+@media (max-width: 768px) {
+  .anima-nav {
+    flex-wrap: wrap;
+  }
+}
+
+.anima-nav .anima-button, .anima-nav .anima-button-close {
+  width: 3.5rem;
+  height: 3.5rem;
+  position: relative;
+}
+
+.anima-nav .nav-title {
+  font-family: var(--heading-medium-font-family);
+  font-size: 1rem; /* 16px to REM conversion not needed as it's already 1rem */
+  font-style: var(--heading-medium-font-style);
+  font-weight: var(--heading-medium-font-weight);
+  letter-spacing: var(--heading-medium-letter-spacing);
+  line-height: var(--heading-medium-line-height);
+  color: var(--darkmid);
+  text-align: center;
+  width: fit-content;
+  position: relative;
+}

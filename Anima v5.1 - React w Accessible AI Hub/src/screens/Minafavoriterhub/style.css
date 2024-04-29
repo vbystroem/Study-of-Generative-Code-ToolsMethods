@@ -1,0 +1,48 @@
+.minafavoriterhub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--lightmid);
+  gap: 1.5rem;
+  height: 35.5rem;
+  padding: 0rem 1rem 1rem;
+}
+
+.minafavoriterhub .anima-nav-instance {
+  flex: 0 0 auto;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.minafavoriterhub .heading-medium {
+  color: #000000;
+  font-family: var(--heading-medium-font-family);
+  font-size: 1.125rem; /* Converted from 18px assuming 16px base */
+  font-style: var(--heading-medium-font-style);
+  font-weight: var(--heading-medium-font-weight);
+  height: 4.5rem;
+  letter-spacing: var(--heading-medium-letter-spacing);
+  line-height: var(--heading-medium-line-height);
+  text-align: center;
+  width: 18rem;
+}
+
+.minafavoriterhub .button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.minafavoriterhub .anima-button-large-wide {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 768px) {
+  .minafavoriterhub, .minafavoriterhub .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,56 @@
+.minafavoriteroption {
+  align-items: center;
+  background-color: var(--lightmid);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 35.5rem;
+  padding: 0rem 1rem 1rem;
+  position: relative;
+}
+
+.minafavoriteroption .anima-nav-instance {
+  flex: 0 0 auto !important;
+  margin-left: -1rem !important;
+  margin-right: -1rem !important;
+}
+
+.minafavoriteroption .anima-button-close-large-2 {
+  height: 3.5rem !important;
+  margin-right: -0.125rem !important;
+  position: relative !important;
+  width: 3.5rem !important;
+}
+
+.minafavoriteroption .heading-small {
+  color: #000000;
+  font-family: var(--heading-small-font-family);
+  font-size: 1.125rem; /* Converted from px to REM */
+  font-style: var(--heading-small-font-style);
+  font-weight: var(--heading-small-font-weight);
+  height: 1.5rem;
+  letter-spacing: var(--heading-small-letter-spacing);
+  line-height: var(--heading-small-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 18rem;
+}
+
+.minafavoriteroption .anima-card-instance {
+  flex: 0 0 auto !important;
+}
+
+.minafavoriteroption .button-container {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 2rem;
+  position: relative;
+  width: 18rem;
+}
+
+.minafavoriteroption .anima-button-large-narrow {
+  margin-left: unset !important;
+  margin-right: unset !important;
+}

@@ -1,0 +1,52 @@
+.minafavoriteroption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--lightmid);
+  gap: 1rem;
+  height: 35.5rem;
+  padding: 0rem 1rem 1rem;
+}
+
+.minafavoriteroption .anima-nav-instance {
+  flex: 0 0 auto;
+}
+
+.minafavoriteroption .anima-button-close-large-2 {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.minafavoriteroption .heading-small {
+  color: #000000;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-size: 0.875rem; /* 14px / 16 */
+  font-style: normal;
+  font-weight: bold;
+  height: 1.5rem;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  white-space: nowrap;
+  width: 18rem;
+}
+
+.minafavoriteroption .anima-card-instance {
+  flex: 0 0 auto;
+}
+
+.minafavoriteroption .button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  width: 18rem;
+}
+
+@media (max-width: 768px) {
+  .minafavoriteroption .button-container {
+    flex-direction: column;
+  }
+}
