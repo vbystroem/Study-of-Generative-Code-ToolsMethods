@@ -1,0 +1,28 @@
+.anima-button-small {
+  align-items: center;
+  background-color: var(--light);
+  border: 1px solid;
+  border-color: var(--dark);
+  border-radius: 10px;
+  box-shadow: var(--shadow-button);
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 144px;
+  padding: 0.75rem 0;
+  position: relative;
+}
+
+.anima-button-small .description {
+  color: #000000;
+  font-family: var(--buttontext-small-font-family);
+  font-size: 0.875rem; /* Converted from px to rem */
+  font-style: var(--buttontext-small-font-style);
+  font-weight: var(--buttontext-small-font-weight);
+  letter-spacing: var(--buttontext-small-letter-spacing);
+  line-height: var(--buttontext-small-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

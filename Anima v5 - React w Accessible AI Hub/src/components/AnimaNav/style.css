@@ -1,0 +1,28 @@
+.anima-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light);
+  border-bottom: 1px solid #000000;
+  padding: 0.5rem;
+  gap: 1rem;
+  width: 20rem;
+}
+
+.anima-nav .anima-button {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.anima-nav .nav-title {
+  color: var(--darkmid);
+  font-family: var(--heading-medium-font-family);
+  font-size: var(--heading-medium-font-size);
+  font-style: var(--heading-medium-font-style);
+  font-weight: var(--heading-medium-font-weight);
+  letter-spacing: var(--heading-medium-letter-spacing);
+  line-height: var(--heading-medium-line-height);
+  text-align: center;
+  width: fit-content;
+}

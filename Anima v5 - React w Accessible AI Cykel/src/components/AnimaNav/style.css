@@ -1,0 +1,35 @@
+.anima-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light);
+  border-bottom: 1px solid #000000;
+  padding: 0.5rem;
+  width: 20rem;
+  gap: 1rem;
+}
+
+.anima-nav .anima-button, .anima-nav .anima-button-close {
+  height: 3.5rem;
+  width: 3.5rem;
+  position: relative;
+}
+
+.anima-nav .nav-title {
+  color: var(--darkmid);
+  font-family: var(--heading-medium-font-family);
+  font-size: 1rem; /* 16px converted to REM is 1rem */
+  font-style: var(--heading-medium-font-style);
+  font-weight: var(--heading-medium-font-weight);
+  letter-spacing: var(--heading-medium-letter-spacing);
+  line-height: var(--heading-medium-line-height);
+  text-align: center;
+  width: fit-content;
+}
+
+@media (max-width: 768px) {
+  .anima-nav {
+    flex-wrap: wrap;
+  }
+}

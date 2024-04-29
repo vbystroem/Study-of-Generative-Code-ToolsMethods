@@ -1,0 +1,48 @@
+.minafavoriterhub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+  align-items: center;
+  background-color: var(--lightmid);
+  padding: 0rem 1rem 1rem;
+  height: 35.5rem;
+  position: relative;
+}
+
+.minafavoriterhub .anima-nav-instance {
+  flex: 0 0 auto;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.minafavoriterhub .heading-medium {
+  color: #000000;
+  font-family: var(--heading-medium-font-family);
+  font-size: 1.125rem; /* Converted from px to REM assuming 18px base */
+  font-style: var(--heading-medium-font-style);
+  font-weight: var(--heading-medium-font-weight);
+  height: 4.5rem;
+  letter-spacing: var(--heading-medium-letter-spacing);
+  line-height: var(--heading-medium-line-height);
+  text-align: center;
+  width: 18rem;
+}
+
+.minafavoriterhub .button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.minafavoriterhub .anima-button-large-wide {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 768px) {
+  .minafavoriterhub, .minafavoriterhub .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

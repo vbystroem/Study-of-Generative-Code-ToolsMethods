@@ -1,0 +1,1 @@
+export { AnimaCard } from "./AnimaCard";
